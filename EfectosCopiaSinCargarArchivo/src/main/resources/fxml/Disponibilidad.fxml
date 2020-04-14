@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.disponibilidad.FXMLController">
+  <scene>
+    <Scene>
+
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="648.0" prefWidth="1029.0" VBox.vgrow="ALWAYS">
+            <children>
+               <Label layoutX="39.0" layoutY="49.0" prefHeight="531.0" prefWidth="700.0" style="-fx-background-color: #B6B4B4;" />
+               <Label layoutX="154.0" layoutY="241.0" prefHeight="203.0" prefWidth="481.0" style="-fx-background-color: #FFFFFF;" />
+               <Label layoutX="154.0" layoutY="93.0" prefHeight="119.0" prefWidth="482.0" style="-fx-background-color: #FFFFFF;">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></Label>
+               <Button fx:id="boton0_0" layoutX="154.0" layoutY="93.0" mnemonicParsing="false" onAction="#cambiar0_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton0_1" layoutX="234.0" layoutY="93.0" mnemonicParsing="false" onAction="#cambiar0_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton0_2" layoutX="314.0" layoutY="93.0" mnemonicParsing="false" onAction="#cambiar0_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton4_0" layoutX="154.0" layoutY="238.0" mnemonicParsing="false" onAction="#cambiar4_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton1_0" layoutX="154.0" layoutY="122.0" mnemonicParsing="false" onAction="#cambiar1_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton3_2" layoutX="314.0" layoutY="180.0" mnemonicParsing="false" onAction="#cambiar3_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton1_1" layoutX="234.0" layoutY="122.0" mnemonicParsing="false" onAction="#cambiar1_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton1_2" layoutX="314.0" layoutY="122.0" mnemonicParsing="false" onAction="#cambiar1_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button layoutX="39.0" layoutY="582.0" mnemonicParsing="false" onAction="#mostrarMatriz" text="Mostrar matriz" />
+               <Label layoutX="154.0" layoutY="67.0" style="-fx-background-color: #FFFFFF;" text="Lunes" />
+               <Label layoutX="234.0" layoutY="67.0" style="-fx-background-color: #FFFFFF;" text="Martes" />
+               <Label layoutX="315.0" layoutY="67.0" style="-fx-background-color: #FFFFFF;" text="Miercoles" />
+               <Button fx:id="boton0_3" layoutX="394.0" layoutY="93.0" mnemonicParsing="false" onAction="#cambiar0_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="395.0" layoutY="67.0" style="-fx-background-color: #FFFFFF;" text="Jueves" />
+               <Button fx:id="boton1_3" layoutX="394.0" layoutY="122.0" mnemonicParsing="false" onAction="#cambiar1_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton0_4" layoutX="474.0" layoutY="93.0" mnemonicParsing="false" onAction="#cambiar0_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="474.0" layoutY="67.0" style="-fx-background-color: #FFFFFF;" text="Viernes" />
+               <Button fx:id="boton1_4" layoutX="474.0" layoutY="122.0" mnemonicParsing="false" onAction="#cambiar1_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton0_5" layoutX="554.0" layoutY="93.0" mnemonicParsing="false" onAction="#cambiar0_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton1_5" layoutX="554.0" layoutY="122.0" mnemonicParsing="false" onAction="#cambiar1_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="555.0" layoutY="67.0" style="-fx-background-color: #FFFFFF;" text="Sabado" />
+               <Button fx:id="boton2_0" layoutX="154.0" layoutY="151.0" mnemonicParsing="false" onAction="#cambiar2_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton2_1" layoutX="234.0" layoutY="151.0" mnemonicParsing="false" onAction="#cambiar2_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="66.0" layoutY="99.0" text="7:00-7:54">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></Label>
+               <Label layoutX="66.0" layoutY="129.0" text="7:55-8:49">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Label layoutX="66.0" layoutY="158.0" text="8:50-9:44">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Label layoutX="63.0" layoutY="187.0" text="9:45-10:39">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font></Label>
+               <Button fx:id="boton2_2" layoutX="314.0" layoutY="151.0" mnemonicParsing="false" onAction="#cambiar2_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton2_3" layoutX="394.0" layoutY="151.0" mnemonicParsing="false" onAction="#cambiar2_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton2_4" layoutX="474.0" layoutY="151.0" mnemonicParsing="false" onAction="#cambiar2_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton2_5" layoutX="554.0" layoutY="151.0" mnemonicParsing="false" onAction="#cambiar2_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton3_0" layoutX="154.0" layoutY="180.0" mnemonicParsing="false" onAction="#cambiar3_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton3_1" layoutX="234.0" layoutY="180.0" mnemonicParsing="false" onAction="#cambiar3_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton3_3" layoutX="394.0" layoutY="180.0" mnemonicParsing="false" onAction="#cambiar3_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton3_4" layoutX="474.0" layoutY="180.0" mnemonicParsing="false" onAction="#cambiar3_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton3_5" layoutX="554.0" layoutY="180.0" mnemonicParsing="false" onAction="#cambiar3_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="217.0" text="10:40-11:09">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Label layoutX="60.0" layoutY="245.0" text="11:10-12:04">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton4_1" layoutX="234.0" layoutY="238.0" mnemonicParsing="false" onAction="#cambiar4_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton4_2" layoutX="314.0" layoutY="238.0" mnemonicParsing="false" onAction="#cambiar4_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton4_3" layoutX="394.0" layoutY="238.0" mnemonicParsing="false" onAction="#cambiar4_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton4_4" layoutX="474.0" layoutY="238.0" mnemonicParsing="false" onAction="#cambiar4_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton4_5" layoutX="554.0" layoutY="238.0" mnemonicParsing="false" onAction="#cambiar4_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton5_0" layoutX="154.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiar5_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="274.0" text="12:05-12:59">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton5_1" layoutX="234.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiar5_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton5_2" layoutX="314.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiar5_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton5_3" layoutX="394.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiar5_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton6_0" layoutX="154.0" layoutY="296.0" mnemonicParsing="false" onAction="#cambiar6_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton5_4" layoutX="474.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiar5_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton5_5" layoutX="554.0" layoutY="267.0" mnemonicParsing="false" onAction="#cambiar5_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="306.0" text="13:00-13:54">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton6_1" layoutX="234.0" layoutY="296.0" mnemonicParsing="false" onAction="#cambiar6_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton6_2" layoutX="314.0" layoutY="296.0" mnemonicParsing="false" onAction="#cambiar6_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton6_3" layoutX="394.0" layoutY="296.0" mnemonicParsing="false" onAction="#cambiar6_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton6_4" layoutX="474.0" layoutY="296.0" mnemonicParsing="false" onAction="#cambiar6_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton6_5" layoutX="554.0" layoutY="296.0" mnemonicParsing="false" onAction="#cambiar6_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="332.0" prefWidth="67.0" text="14:00-14:54">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton7_0" layoutX="154.0" layoutY="325.0" mnemonicParsing="false" onAction="#cambiar7_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton7_1" layoutX="234.0" layoutY="325.0" mnemonicParsing="false" onAction="#cambiar7_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton7_2" layoutX="314.0" layoutY="325.0" mnemonicParsing="false" onAction="#cambiar7_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton7_3" layoutX="394.0" layoutY="325.0" mnemonicParsing="false" onAction="#cambiar7_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton7_4" layoutX="474.0" layoutY="325.0" mnemonicParsing="false" onAction="#cambiar7_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton7_5" layoutX="554.0" layoutY="325.0" mnemonicParsing="false" onAction="#cambiar7_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="361.0" prefWidth="67.0" text="14:55-15:49">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton8_0" layoutX="154.0" layoutY="354.0" mnemonicParsing="false" onAction="#cambiar8_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton8_1" layoutX="234.0" layoutY="354.0" mnemonicParsing="false" onAction="#cambiar8_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton8_2" layoutX="314.0" layoutY="354.0" mnemonicParsing="false" onAction="#cambiar8_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton8_3" layoutX="394.0" layoutY="354.0" mnemonicParsing="false" onAction="#cambiar8_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton8_4" layoutX="474.0" layoutY="354.0" mnemonicParsing="false" onAction="#cambiar8_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton8_5" layoutX="554.0" layoutY="354.0" mnemonicParsing="false" onAction="#cambiar8_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="390.0" prefWidth="67.0" text="15:50-16:44">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton9_0" layoutX="154.0" layoutY="383.0" mnemonicParsing="false" onAction="#cambiar9_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton9_1" layoutX="234.0" layoutY="383.0" mnemonicParsing="false" onAction="#cambiar9_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton9_2" layoutX="314.0" layoutY="383.0" mnemonicParsing="false" onAction="#cambiar9_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton9_3" layoutX="394.0" layoutY="383.0" mnemonicParsing="false" onAction="#cambiar9_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton9_4" layoutX="474.0" layoutY="383.0" mnemonicParsing="false" onAction="#cambiar9_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton9_5" layoutX="554.0" layoutY="383.0" mnemonicParsing="false" onAction="#cambiar9_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="419.0" prefWidth="67.0" text="16:45-17:39">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton10_0" layoutX="154.0" layoutY="412.0" mnemonicParsing="false" onAction="#cambiar10_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton10_1" layoutX="234.0" layoutY="412.0" mnemonicParsing="false" onAction="#cambiar10_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton10_2" layoutX="314.0" layoutY="412.0" mnemonicParsing="false" onAction="#cambiar10_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton10_3" layoutX="394.0" layoutY="412.0" mnemonicParsing="false" onAction="#cambiar10_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton10_4" layoutX="474.0" layoutY="412.0" mnemonicParsing="false" onAction="#cambiar10_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton10_5" layoutX="554.0" layoutY="412.0" mnemonicParsing="false" onAction="#cambiar10_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="154.0" layoutY="470.0" prefHeight="90.0" prefWidth="480.0" style="-fx-background-color: #FFFFFF;" />
+               <Label layoutX="59.0" layoutY="450.0" prefWidth="67.0" text="17:40-18:00">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton11_0" layoutX="154.0" layoutY="470.0" mnemonicParsing="false" onAction="#cambiar11_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton11_1" layoutX="234.0" layoutY="470.0" mnemonicParsing="false" onAction="#cambiar11_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton11_2" layoutX="314.0" layoutY="470.0" mnemonicParsing="false" onAction="#cambiar11_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton11_3" layoutX="394.0" layoutY="470.0" mnemonicParsing="false" onAction="#cambiar11_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton11_4" layoutX="474.0" layoutY="470.0" mnemonicParsing="false" onAction="#cambiar11_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton11_5" layoutX="554.0" layoutY="470.0" mnemonicParsing="false" onAction="#cambiar11_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="477.0" prefWidth="67.0" text="17:59-18:54">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton12_0" layoutX="154.0" layoutY="499.0" mnemonicParsing="false" onAction="#cambiar12_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton12_1" layoutX="234.0" layoutY="499.0" mnemonicParsing="false" onAction="#cambiar12_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton12_2" layoutX="314.0" layoutY="499.0" mnemonicParsing="false" onAction="#cambiar12_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton12_3" layoutX="394.0" layoutY="499.0" mnemonicParsing="false" onAction="#cambiar12_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton12_4" layoutX="474.0" layoutY="499.0" mnemonicParsing="false" onAction="#cambiar12_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton12_5" layoutX="554.0" layoutY="499.0" mnemonicParsing="false" onAction="#cambiar12_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="60.0" layoutY="507.0" prefWidth="67.0" text="18:55-19:49">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button fx:id="boton13_0" layoutX="154.0" layoutY="528.0" mnemonicParsing="false" onAction="#cambiar13_0" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton13_1" layoutX="234.0" layoutY="528.0" mnemonicParsing="false" onAction="#cambiar13_1" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton13_2" layoutX="314.0" layoutY="528.0" mnemonicParsing="false" onAction="#cambiar13_2" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton13_3" layoutX="394.0" layoutY="528.0" mnemonicParsing="false" onAction="#cambiar13_3" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton13_4" layoutX="474.0" layoutY="528.0" mnemonicParsing="false" onAction="#cambiar13_4" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Button fx:id="boton13_5" layoutX="554.0" layoutY="528.0" mnemonicParsing="false" onAction="#cambiar13_5" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" />
+               <Label layoutX="59.0" layoutY="535.0" prefWidth="67.0" text="19:50-20:44">
+                  <font>
+                     <Font name="System Bold" size="12.0" />
+                  </font>
+               </Label>
+               <Button layoutX="645.0" layoutY="458.0" mnemonicParsing="false" onAction="#conexion" text="Conexion" />
+               <Button layoutX="645.0" layoutY="495.0" mnemonicParsing="false" onAction="#desconectar" text="Desconectar" />
+               <Button layoutX="413.0" layoutY="582.0" mnemonicParsing="false" onAction="#consultar" text="Consultar" />
+               <Button layoutX="626.0" layoutY="582.0" mnemonicParsing="false" onAction="#actualizar" text="Actualizar en BD" />
+               <Label layoutX="749.0" layoutY="84.0" text="Usuario" />
+               <Label fx:id="usuario" layoutX="814.0" layoutY="84.0" prefHeight="17.0" prefWidth="184.0" />
+               <Label layoutX="748.0" layoutY="120.0" text="Nombre" />
+               <Label fx:id="nombre" layoutX="814.0" layoutY="120.0" prefHeight="17.0" prefWidth="192.0" />
+               <Label layoutX="746.0" layoutY="158.0" text="Nivel ads" />
+               <Label layoutX="747.0" layoutY="196.0" text="Contrato" />
+               <Label fx:id="nivel" layoutX="814.0" layoutY="158.0" prefHeight="17.0" prefWidth="193.0" />
+               <Label fx:id="contrato" layoutX="814.0" layoutY="196.0" prefHeight="17.0" prefWidth="195.0" />
+            </children>
+      </AnchorPane>
+
+
+    </Scene>
+  </scene>
+
+</Stage>

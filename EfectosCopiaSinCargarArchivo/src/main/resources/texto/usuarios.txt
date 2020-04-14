@@ -1,0 +1,5 @@
+1#admin$admin123
+1#admin2$admin321
+2#user$user123
+2#user2$user321
+2#usuario3$usuario123

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.efectos.app.FXMLController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="616.0" prefWidth="1082.0">
+            <children>
+               <SplitPane layoutX="27.0" layoutY="98.0" prefHeight="494.0" prefWidth="1060.0">
+                  <items>
+                     <ScrollPane prefHeight="642.0" prefWidth="1058.0">
+                       <content>
+                         <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="978.0" prefWidth="1050.0">
+                              <children>
+                                 <TextArea fx:id="a1" editable="false" layoutX="26.0" layoutY="64.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="a2" editable="false" layoutX="126.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a3" editable="false" layoutX="222.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a4" editable="false" layoutX="322.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a5" editable="false" layoutX="418.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a6" editable="false" layoutX="518.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a8" editable="false" layoutX="716.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a7" editable="false" layoutX="618.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a10" editable="false" layoutX="919.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="a9" editable="false" layoutX="815.0" layoutY="64.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b1" editable="false" layoutX="26.0" layoutY="186.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="b2" editable="false" layoutX="126.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b3" editable="false" layoutX="222.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b4" editable="false" layoutX="322.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b5" editable="false" layoutX="418.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b6" editable="false" layoutX="518.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b8" editable="false" layoutX="716.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b7" editable="false" layoutX="618.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b9" editable="false" layoutX="815.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c1" editable="false" layoutX="26.0" layoutY="309.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="c2" editable="false" layoutX="126.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c3" editable="false" layoutX="222.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c4" editable="false" layoutX="322.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c5" editable="false" layoutX="418.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c6" editable="false" layoutX="518.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c8" editable="false" layoutX="716.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c7" editable="false" layoutX="618.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c9" editable="false" layoutX="815.0" layoutY="309.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d1" editable="false" layoutX="26.0" layoutY="421.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="d2" editable="false" layoutX="126.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d3" editable="false" layoutX="222.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d4" editable="false" layoutX="322.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d5" editable="false" layoutX="418.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d6" editable="false" layoutX="518.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d8" editable="false" layoutX="716.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d7" editable="false" layoutX="618.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d9" editable="false" layoutX="815.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e1" editable="false" layoutX="26.0" layoutY="529.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="e2" editable="false" layoutX="126.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e3" editable="false" layoutX="222.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e4" editable="false" layoutX="322.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e5" editable="false" layoutX="418.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e6" editable="false" layoutX="518.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e8" editable="false" layoutX="716.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e7" editable="false" layoutX="618.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e9" editable="false" layoutX="815.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f1" editable="false" layoutX="26.0" layoutY="636.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="f2" editable="false" layoutX="126.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f3" editable="false" layoutX="222.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f4" editable="false" layoutX="322.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f5" editable="false" layoutX="418.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f6" editable="false" layoutX="518.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f8" editable="false" layoutX="716.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f7" editable="false" layoutX="618.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f9" editable="false" layoutX="815.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g1" editable="false" layoutX="26.0" layoutY="733.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="g2" editable="false" layoutX="126.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g3" editable="false" layoutX="222.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g4" editable="false" layoutX="322.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g5" editable="false" layoutX="418.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g6" editable="false" layoutX="518.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g8" editable="false" layoutX="716.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g7" editable="false" layoutX="618.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g9" editable="false" layoutX="815.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h1" editable="false" layoutX="26.0" layoutY="838.0" prefHeight="83.0" prefWidth="85.0" />
+                                 <TextArea fx:id="h2" editable="false" layoutX="126.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h3" editable="false" layoutX="222.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h4" editable="false" layoutX="322.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h5" editable="false" layoutX="418.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h6" editable="false" layoutX="518.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h8" editable="false" layoutX="716.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h7" editable="false" layoutX="618.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h9" editable="false" layoutX="815.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="b10" editable="false" layoutX="919.0" layoutY="186.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="c10" editable="false" layoutX="919.0" layoutY="308.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="d10" editable="false" layoutX="919.0" layoutY="421.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="e10" editable="false" layoutX="919.0" layoutY="529.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="f10" editable="false" layoutX="919.0" layoutY="636.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="g10" editable="false" layoutX="919.0" layoutY="733.0" prefHeight="83.0" prefWidth="82.0" />
+                                 <TextArea fx:id="h10" editable="false" layoutX="919.0" layoutY="838.0" prefHeight="83.0" prefWidth="82.0" />
+                              </children>
+                           </AnchorPane>
+                       </content>
+                     </ScrollPane>
+                  </items>
+               </SplitPane>
+               <TextField editable="false" layoutX="39.0" layoutY="40.0" prefHeight="42.0" prefWidth="1025.0" />
+            </children></AnchorPane>
+        </Scene>
+    </scene>
+</Stage>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.stage.*?>
+
+<Stage xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.efectos.app.FXMLController">
+<scene>
+  <Scene>
+    <AnchorPane prefHeight="496.0" prefWidth="669.0">
+      <children>
+               <ImageView fitHeight="527.0" fitWidth="703.0" layoutX="-1.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Imagenes/64585634_879257035770525_9177918032888987648_o.jpg" />
+                  </image>
+               </ImageView>
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="504.0" layoutX="116.0" layoutY="-5.0" opacity="0.85" stroke="WHITE" strokeType="INSIDE" width="471.0" />
+
+          <ImageView fx:id="upv2" fitHeight="62.0" fitWidth="127.0" layoutX="290.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@Imagenes/upv2.png" />
+              </image>
+          </ImageView>
+          <ImageView fx:id="letras2" fitHeight="21.0" fitWidth="198.0" layoutX="281.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+              <image>
+                  <Image url="@Imagenes/palabras2.png" />
+              </image>
+          </ImageView>
+               <Label layoutX="282.0" layoutY="127.0" text="Iniciar Sesión">
+                  <font>
+                     <Font name="Roboto Light" size="23.0" />
+                  </font>
+               </Label>
+               <Label layoutX="229.0" layoutY="182.0" text="¿Con qué tipo de cuenta desea acceder?">
+                  <font>
+                     <Font name="Roboto Light" size="13.0" />
+                  </font></Label>
+               <Label layoutX="193.0" layoutY="238.0" text="Seleccione tipo de cuenta" textFill="#7609f2">
+                  <font>
+                     <Font name="Roboto Light" size="10.0" />
+                  </font>
+               </Label>
+               <Button fx:id="siguienteSeleccionCuenta" layoutX="486.0" layoutY="400.0" mnemonicParsing="false" onAction="#siguienteInicio2" text="Siguiente">
+                  <font>
+                     <Font name="Roboto Light" size="13.0" />
+                  </font>
+               </Button>
+               <ComboBox fx:id="comboBox" layoutX="193.0" layoutY="258.0" onMouseClicked="#combo" prefHeight="26.0" prefWidth="316.0" promptText="Seleccionar" />
+               <Label fx:id="error" layoutX="193.0" layoutY="293.0" textFill="#ff0101">
+                  <font>
+                     <Font name="Roboto Light" size="12.0" />
+                  </font>
+               </Label>
+          <Label layoutX="197.0" layoutY="337.0" text="Registrarse." textFill="#65028a">
+              <font>
+                  <Font name="Roboto Light" size="13.0" />
+              </font>
+          </Label>
+          <Button fx:id="registerB" layoutX="195.0" layoutY="334.0" mnemonicParsing="false" onAction="#registrarse" opacity="0.0" prefHeight="26.0" prefWidth="73.0" text="Button" />
+
+      </children></AnchorPane>
+  </Scene>
+
+</scene>
+</Stage>

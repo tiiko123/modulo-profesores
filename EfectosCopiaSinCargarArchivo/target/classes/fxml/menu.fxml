@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.stage.Stage?>
+
+<Stage xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.efectos.app.FXMLController">
+    <scene>
+        <Scene>
+            <AnchorPane prefHeight="476.0" prefWidth="344.0">
+            <children>
+               <Button fx:id="disp_horarios" layoutX="110.0" layoutY="95.0" mnemonicParsing="false" onAction="#disponibilidad" prefHeight="96.0" prefWidth="131.0" style="-fx-background-color: B072C8;" text="DISPONIBILIDAD DE HORARIO" textAlignment="CENTER" wrapText="true" />
+               <Button fx:id="eva_mat" layoutX="108.0" layoutY="213.0" mnemonicParsing="false" onAction="#evaluar" prefHeight="94.0" prefWidth="132.0" style="-fx-background-color: B072C8;" text="EVALUAR MATERIAS" textAlignment="CENTER" wrapText="true" />
+               <Button fx:id="act_hora" layoutX="106.0" layoutY="329.0" mnemonicParsing="false" onAction="#actualizar" prefHeight="98.0" prefWidth="135.0" style="-fx-background-color: B072C8;" text="ACTUALIZAR INFORMACION DE CONTACTO" textAlignment="CENTER" wrapText="true" />
+               <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#b072c8" height="53.0" layoutX="-6.0" stroke="TRANSPARENT" strokeType="INSIDE" width="353.0" />
+               <Label layoutX="55.0" layoutY="20.0" text="BIENVENIDO" textFill="WHITE" />
+               <Button fx:id="cerrar_sesion" layoutX="222.0" layoutY="11.0" mnemonicParsing="false" opacity="0.0" prefHeight="35.0" prefWidth="118.0" textFill="WHITE" />
+               <Label layoutX="231.0" layoutY="20.0" text="CERRAR SESION" textFill="WHITE" />
+            </children>
+            </AnchorPane>
+        </Scene>
+
+</scene>
+</Stage>
